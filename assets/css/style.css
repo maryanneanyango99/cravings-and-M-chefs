@@ -1,26 +1,33 @@
 *{
+    
     background-color: bisque;
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
-header{
-    font-size: larger;
+#pop{
+    background-image: url(./images/13.jpg);
+    font-style: oblique;
+    align-items: center;
     text-align: center;
-    font-weight: 900;
-
+}
+ #pop > header{ 
+     font-weight: 900;
+     font-size: larger;
 
 }
-h1{
-    text-align: center;
-    font-size: large;
+#pop > h1{
     font-weight: 700;
+    font-size: larger;
 }
-.links{
+
+#pop > .links > ul > li{
 float: right;
-display: inline;
+display: inline-flex;
+padding-right: 30px;
 }
+
 #top{
 display: flex;
 flex-direction: row;
