@@ -152,13 +152,12 @@ padding-top:300px
     #services > h1{
         padding-left: 50px;
     }
-}
 
 .order{
     margin-top: 0px;
 }
 
-.order .{
+.order {
 	position: fixed;
 	width: auto;
 	height: 100%;
