@@ -30,7 +30,7 @@ Please adhere to this project's `code of conduct`.
 Authors
 @Anyango
 Feedback
-If you have any feedback, please reach out to us at zacharia.mwangi@student.moringaschool.com
+If you have any feedback, please reach out to us at @mary.carterers
 
 Tech Stack
 Client: HTML, CSS, JS
