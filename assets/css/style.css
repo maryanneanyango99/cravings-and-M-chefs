@@ -11,7 +11,8 @@
 }
     
 html{
-
+background-image: url(./images/2.jpg);
+background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;  
 font-size:62.5%;
@@ -45,12 +46,7 @@ section:nth-child(even){
     font-size: 1.7rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
-    color: var(--light-colour);
-}
- #img1{
-    background-size: cover;
-height: 100%;
-width: 400%;
+    color: var(--light-colour)
     }
 
 header .navbar a,
@@ -106,6 +102,7 @@ section:nth-child(even){
     background: #eee;
 }
 header{ 
+
 position:fixed;
 top:0;left:0;right:0;
 background:#fff;
@@ -155,7 +152,7 @@ header .navbar a:hover{
 }
 
 .order .{
-	position: relative;
+	position: fixed;
 	width: auto;
 	height: 100%;
 	display: flex;
@@ -184,6 +181,7 @@ header .navbar a:hover{
 	text-align: center;
 	background-color: #fff;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    float:right;
 }
 
 .order .left{
@@ -254,12 +252,10 @@ order.btn:hover{
     background-color: #fff;
 }
 
-@media screen and (max-width: 880px){
-	.order .order-box{
-		grid-template-columns: 1fr;
-	}
-	.order .left{
-		height: 200p
+@media screen and (max-width: 768px) {
+        .content {
+            width: 100%;
+        }
     }
 
 
