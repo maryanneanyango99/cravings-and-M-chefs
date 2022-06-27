@@ -1,3 +1,30 @@
+var input = document.querySelector('.input_text');
+var main = document.querySelector('#name');
+var temp = document.querySelector('.temp');
+var desc = document.querySelector('.desc');
+var clouds = document.querySelector('.clouds');
+var button= document.querySelector('.submit');
+
+
+button.addEventListener('click', function(name){
+fetch('https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid=0a169b91a3c415ebc5b1314649c729c9')
+
+.then(data => {
+  var tempValue = data['main']['temp'];
+  var nameValue = data['name'];
+  var descValue = data['weather'][0]['description'];
+
+  main.innerHTML = nameValue;
+  desc.innerHTML = "Desc - "+descValue;
+  temp.innerHTML = "Temp - "+tempValue;
+  input.value ="";
+
+})
+
+.catch(err => alert("Wrong city name!"));
+})
+
+
 document.addEventListener('DOMContentLoaded', function(){
     getCaterers();
 })
