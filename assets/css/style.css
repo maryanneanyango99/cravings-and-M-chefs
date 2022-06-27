@@ -11,9 +11,9 @@
 }
     
 html{
-    background-image: url(./images/2.jpg);
-    height: 200px;
-    width: 400px;  
+
+background-repeat: no-repeat;
+background-attachment: fixed;  
 font-size:62.5%;
 overflow-x:hidden;
 scroll-padding-top:5.5rem;
@@ -22,19 +22,8 @@ scroll-padding-top:5.5rem;
 section:nth-child(even){
     background: #eee;
 }
-.sub-heading{
-    text-align: center;
-    color:var(--green);
-    font-size: 2rem;
-    padding-top: 1rem;
-}
-.heading{
-    text-align: center;
-    color: var(--black);
-    font-size: 3rem;
-    padding-bottom: 2rem;
-    text-transform: uppercase;
-}
+
+  
 .btn{
     margin: top 1rem;
     display: inline-block;
@@ -45,27 +34,26 @@ section:nth-child(even){
     cursor:pointer;
     padding:8rem 3rem;
 }
-.btn :hover{
-
-}
-section{
-    padding: 2rem 9%;
-}
-section:nth-child(even){
-    background: #eee;
-}
-
-header .logo i{
+ .logo {
     color:var(--green);
-    font-size: large;
+    font-size: 4.6rem;
+    background-color:bisque;
+    float: left;
+    text-decoration: #27ae60;
 }
-header .navbar a{
+.navbar {
     font-size: 1.7rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: var(--light-colour);
 }
-header .navbar a.active,
+ #img1{
+    background-size: cover;
+height: 100%;
+width: 400%;
+    }
+
+header .navbar a,
 header .navbar a{
     font-family: "Nunito",sans-serif;
     margin: 0;padding: 0;
@@ -108,9 +96,9 @@ section:nth-child(even){
     cursor:pointer;
     padding:8rem 3rem;
 }
-.btn :hover{
 
-}
+
+
 section{
     padding: 2rem  9%;
 }
@@ -143,9 +131,8 @@ box-shadow: var(--box-shadow);
 
 
 
-header .logo i{
-    color:var(--green);
-}
+
+
 header .navbar a{
     font-size: 1.7rem;
     border-radius: .5rem;
