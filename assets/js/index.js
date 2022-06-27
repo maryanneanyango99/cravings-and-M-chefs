@@ -24,3 +24,26 @@ fetch('http://localhost:3000/caterers')
     });
 })
 }
+document.addEventListener('DOMContentLoaded', function(){
+    getProducts();
+function getProducts(){
+    fetch('http://localhost:3000/caterers')
+    .then(res=>res.json())
+    .then(data=>{
+        data.forEach(dataObject => {
+            listEl = document.createElement('li');
+            const ulList = document.getElementById("products-list");
+            listEl.innerHTML = dataObject.name;
+            ulList.appendChild(listEl);
+    
+            listEl.addEventListener('click', function(){
+               const productName = document.getElementById('p1-a');
+               const productHiringCost = document.getElementById('p1-b');
+               const productDuration = document.getElementById('p1-c');
+    
+                productName.innerText = `name: ${dataObject.name}`;
+                productHiringCost.innerText = `hiring: ${dataObject.hiringCost}`;
+                productDuration.innerText = `duration: ${dataObject.contact}`;
+            })
+        });
+    })
