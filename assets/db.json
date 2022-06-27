@@ -1,0 +1,112 @@
+{
+    "caterers":[
+        {
+             "id":1,
+            "name":"CRAVINGS AND M-CHEFS",
+            "cost":"1200ksh",
+            "location":"Nairobi",
+            "contact":"@Ouyah22"
+
+        },
+        {
+            "id":2,
+           "name":"CRAVINGS AND M-CHEFS",
+           "cost":"1400ksh",
+           "location":"Nairobi",
+           "contact":"@anne24"
+
+       }, {
+        "id":1,
+       "name":"CRAVINGS AND M-CHEFS",
+       "cost":"1500ksh",
+       "location":"Nairobi",
+       "contact":"@mary78"
+
+   }, {
+    "id":1,
+   "name":"CRAVINGS AND M-CHEFS",
+   "cost":1900,
+   "location":"Nairobi",
+   "contact address":"@ngo66"
+
+}, {
+    "id":1,
+   "name":"CRAVINGS AND M-CHEFS",
+   "cost":1500,
+   "location":"Nairobi",
+   "contact":"@zawadi77"
+
+},
+
+{
+    "id":1,
+   "name":"CRAVINGS AND M-CHEFS",
+   "cost":"2000ksh",
+   "location":"Nairobi",
+   "contact":"@bonny"
+
+}, 
+
+{
+    "id":1,
+   "name":"CRAVINGS AND M-CHEFS",
+   "cost":"1600ksh",
+   "location":"Nairobi",
+   "contact":"maryanneanyango"
+
+}
+    ],
+
+
+    "products":[
+        {
+        "id":"l1",
+        "name":"cheffings",
+        "hiring cost":"1400ksh",
+        "duration":"2days"
+        
+
+        },
+         {"id":"l2",
+            "name":"",
+            "hiring cost":"1000ksh",
+            "duration":"1days"
+            
+    
+            },
+             {"id":"l3",
+                "name":"cheffings",
+                "hiring cost":"1400ksh",
+                "duration":"48hrs"
+                
+        
+                }
+    ],
+
+
+
+
+"deliveries":[
+{
+   "name":"french fries",
+   "quantity":"quater",
+   "cost":"800ksh"
+},
+
+{
+    "name":"smoked salmon",
+    "quantity":"one piece",
+    "cost":"600ksh"
+ },
+ 
+ {
+    "name":"burger",
+    "quantity":"1",
+    "cost":"500ksh"
+ },
+    {"name":"fried chicken",
+    "quantity":"full",
+    "cost":"1000ksh"
+ }
+
+]
