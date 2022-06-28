@@ -120,6 +120,10 @@ header{
   .home .image{
     flex:1 1 40rem;
   }
+  #day{ font-size: 2rem;
+  color:blueviolet,}
+  #id{font-size: 2em}
+#temp{ font-size:2.5em; font-weight: bolder; color:#fa5}
   .home .image img{
     width:100%;
     padding:1rem;
